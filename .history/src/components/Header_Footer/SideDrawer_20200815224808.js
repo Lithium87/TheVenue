@@ -23,19 +23,19 @@ const SideDrawer = props => {
       onClose={() => props.onClose(false)}
     >
       <List component='nav'>
-        <ListItem button onClick={() => scrollToElement('featured')}>
+        <ListItem button onClick={() => console.log('Featured')}>
           Event starts in
         </ListItem>
-        <ListItem button onClick={() => scrollToElement('venuenfo')}>
+        <ListItem button onClick={() => console.log('Venue NFO')}>
           Venue NFO
         </ListItem>
         <ListItem button onClick={() => scrollToElement('highlights')}>
           Highlights
         </ListItem>
-        <ListItem button onClick={() => scrollToElement('pricing')}>
+        <ListItem button onClick={() => console.log('Pricing')}>
           Pricing
         </ListItem>
-        <ListItem button onClick={() => scrollToElement('location')}>
+        <ListItem button onClick={() => console.log('Location')}>
           Location
         </ListItem>
       </List>
